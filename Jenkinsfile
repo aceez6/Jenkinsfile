@@ -3,7 +3,17 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello world!' 
+                echo 'Employee = {
+		                            "Name":
+		                            {
+			                            "":
+			                                {	"Task":"",
+                                                "Start Date":"",
+                                                "End Date":"",
+                                                "Progress Status":""
+                                            }
+                                    }
+                                  } 
             }
         }
     }
